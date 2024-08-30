@@ -9,7 +9,7 @@ data class RegisteUIState(
     var password:String = "",
     var phone: Int = 0,
     var privacyPolicyAccepted:Boolean = false,
-    val role: String = "Admin",
+    val role: String = "Customer",
 
     var nameError:Boolean = false,
     var emailError:Boolean = false,
